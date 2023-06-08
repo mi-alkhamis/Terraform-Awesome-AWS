@@ -4,7 +4,7 @@ A Temporary repo for writing and testing terraform AWS code
 1. Create a KeyPair `easy-ec2-keypair`
 2. Create an EC2 Instance `easy-ec2-instance`
 3. Create a user and show the access key id and secret access key `easy-iam-user`
-4. Create a group and assign permission to it `easy-iam-group-permission`
+4. Create a group and assign policy to it `easy-iam-group-permission`
 5. Create a user and add it to the group `easy-iam-user-group`
 6. Create a VPC and their subnets `easy-vpc-subnet`
 7. Create VPC with private and public(access to the internet) subnet `medium-vpc-private-public-subnet`
