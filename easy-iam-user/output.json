@@ -1,0 +1,12 @@
+{
+  "aws_iam_user_access_key_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "AKIAZ7L3ISLHX7NJRYSV"
+  },
+  "aws_iam_user_seceret_access_key": {
+    "sensitive": true,
+    "type": "string",
+    "value": "/+yZ2bE8Vtma12fQAwxMI5LeXZiBxMw16krY+2nK"
+  }
+}
