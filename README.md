@@ -7,10 +7,10 @@ A Temporary repo for writing and testing terraform AWS code
 4. [x] 4. Create a group and assign policy to it `easy-iam-group-permission`
 5. [x] 5. Create a user and add it to the group `easy-iam-user-group`
 6. [x] 6. Create a VPC and their subnets `easy-vpc-subnet`
-7. Create VPC with private and public(access to the internet) subnet `medium-vpc-private-public-subnet`
-8. Create an internet gateway and assign it to VPC then add routes `medium-vpc-internet-gateway`
-9. Create an EC2 that can access the internet through the internet gateway `medium-ec2-internet-gateway` 
-10. Create an EC2 that can access the internet by NAT gateway `medium-ec2-nat-gateway`
+7. [x] 7. Create VPC with private and public(access to the internet) subnet `medium-vpc-private-public-subnet`
+8. [x] 8. Create an internet gateway and assign it to VPC then add routes `medium-vpc-internet-gateway`
+9. [x] 9. Create an EC2 that can access the internet through the internet gateway `medium-ec2-internet-gateway` 
+10. [x] 10. Create an EC2 that can access the internet by NAT gateway `medium-ec2-nat-gateway`
 11. Create an S3 bucket with access control `medium-s3-access`
 12. Create an EC2 with user data `easy-ec2-userdata`
 13. Create an S3 bucket with encryption and versioning `hard-s3-encrypt-version`
