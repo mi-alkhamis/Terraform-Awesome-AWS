@@ -25,10 +25,32 @@ variable "public_subnet_cidr" {
   }
 }
 
+variable "private_subnet_cidr" {
+  default = {
+    "az-1" = {
+      cidr_block          = "10.10.11.0/24"
+      availability_zone   = "us-east-1a"
+      public_ip_on_launch = false
+      scope               = "Private"
+    }
+    "az-2" = {
+      cidr_block          = "10.10.12.0/24"
+      availability_zone   = "us-east-1b"
+      public_ip_on_launch = false
+      scope               = "Private"
+    }
+    "az-3" = {
+      cidr_block          = "10.10.13.0/24"
+      availability_zone   = "us-east-1c"
+      public_ip_on_launch = false
+      scope               = "Private"
+    }
+  }
+}
 
 variable "network_tags" {
   default = {
-    "Environment" = "MainNetwork",
+    "Environment" = "Main",
     "Scope"       = "NonProd"
   }
 }
